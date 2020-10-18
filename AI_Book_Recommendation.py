@@ -101,3 +101,19 @@ for i in range(0, len(distances.flatten())):
     else:
         st.write('{0}: {1}, with distance of {2}:'.format(
             i, us_canada_user_rating_pivot.index[indices.flatten()[i]], distances.flatten()[i]))
+
+
+st.markdown('''
+<html>
+<hr/>
+</html>
+''', unsafe_allow_html=True)
+
+st.header("Artificial Intelligence Mini Project – Semester 7")
+st.subheader("Submitted To:")
+st.write("Prof. Mahesh Maurya")
+st.subheader("Performed By:")
+st.write("Ishita Biswas, B014")
+st.write("Ritik Bochiwal, B015")
+st.write("Hetav Desai, B021")
+st.write("Sara Dharadhar, B024")
